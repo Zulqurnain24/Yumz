@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		644CC52B29C28D08001ADC49 /* YumzApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644CC52A29C28D08001ADC49 /* YumzApp.swift */; };
+		644CC52D29C28D08001ADC49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644CC52C29C28D08001ADC49 /* ContentView.swift */; };
+		644CC52F29C28D09001ADC49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 644CC52E29C28D09001ADC49 /* Assets.xcassets */; };
+		644CC53229C28D09001ADC49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 644CC53129C28D09001ADC49 /* Preview Assets.xcassets */; };
+		644CC53C29C28D09001ADC49 /* YumzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644CC53B29C28D09001ADC49 /* YumzTests.swift */; };
+		644CC54629C28D09001ADC49 /* YumzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644CC54529C28D09001ADC49 /* YumzUITests.swift */; };
+		644CC54829C28D09001ADC49 /* YumzUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644CC54729C28D09001ADC49 /* YumzUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		644CC53829C28D09001ADC49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 644CC51F29C28D08001ADC49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 644CC52629C28D08001ADC49;
+			remoteInfo = Yumz;
+		};
+		644CC54229C28D09001ADC49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 644CC51F29C28D08001ADC49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 644CC52629C28D08001ADC49;
+			remoteInfo = Yumz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		644CC52729C28D08001ADC49 /* Yumz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yumz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		644CC52A29C28D08001ADC49 /* YumzApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YumzApp.swift; sourceTree = "<group>"; };
+		644CC52C29C28D08001ADC49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		644CC52E29C28D09001ADC49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		644CC53129C28D09001ADC49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		644CC53729C28D09001ADC49 /* YumzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YumzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		644CC53B29C28D09001ADC49 /* YumzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YumzTests.swift; sourceTree = "<group>"; };
+		644CC54129C28D09001ADC49 /* YumzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YumzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		644CC54529C28D09001ADC49 /* YumzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YumzUITests.swift; sourceTree = "<group>"; };
+		644CC54729C28D09001ADC49 /* YumzUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YumzUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		644CC52429C28D08001ADC49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644CC53429C28D09001ADC49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644CC53E29C28D09001ADC49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		644CC51E29C28D08001ADC49 = {
+			isa = PBXGroup;
+			children = (
+				644CC52929C28D08001ADC49 /* Yumz */,
+				644CC53A29C28D09001ADC49 /* YumzTests */,
+				644CC54429C28D09001ADC49 /* YumzUITests */,
+				644CC52829C28D08001ADC49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		644CC52829C28D08001ADC49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				644CC52729C28D08001ADC49 /* Yumz.app */,
+				644CC53729C28D09001ADC49 /* YumzTests.xctest */,
+				644CC54129C28D09001ADC49 /* YumzUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		644CC52929C28D08001ADC49 /* Yumz */ = {
+			isa = PBXGroup;
+			children = (
+				644CC52A29C28D08001ADC49 /* YumzApp.swift */,
+				644CC52C29C28D08001ADC49 /* ContentView.swift */,
+				644CC52E29C28D09001ADC49 /* Assets.xcassets */,
+				644CC53029C28D09001ADC49 /* Preview Content */,
+			);
+			path = Yumz;
+			sourceTree = "<group>";
+		};
+		644CC53029C28D09001ADC49 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				644CC53129C28D09001ADC49 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		644CC53A29C28D09001ADC49 /* YumzTests */ = {
+			isa = PBXGroup;
+			children = (
+				644CC53B29C28D09001ADC49 /* YumzTests.swift */,
+			);
+			path = YumzTests;
+			sourceTree = "<group>";
+		};
+		644CC54429C28D09001ADC49 /* YumzUITests */ = {
+			isa = PBXGroup;
+			children = (
+				644CC54529C28D09001ADC49 /* YumzUITests.swift */,
+				644CC54729C28D09001ADC49 /* YumzUITestsLaunchTests.swift */,
+			);
+			path = YumzUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		644CC52629C28D08001ADC49 /* Yumz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 644CC54B29C28D09001ADC49 /* Build configuration list for PBXNativeTarget "Yumz" */;
+			buildPhases = (
+				644CC52329C28D08001ADC49 /* Sources */,
+				644CC52429C28D08001ADC49 /* Frameworks */,
+				644CC52529C28D08001ADC49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yumz;
+			productName = Yumz;
+			productReference = 644CC52729C28D08001ADC49 /* Yumz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		644CC53629C28D09001ADC49 /* YumzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 644CC54E29C28D09001ADC49 /* Build configuration list for PBXNativeTarget "YumzTests" */;
+			buildPhases = (
+				644CC53329C28D09001ADC49 /* Sources */,
+				644CC53429C28D09001ADC49 /* Frameworks */,
+				644CC53529C28D09001ADC49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				644CC53929C28D09001ADC49 /* PBXTargetDependency */,
+			);
+			name = YumzTests;
+			productName = YumzTests;
+			productReference = 644CC53729C28D09001ADC49 /* YumzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		644CC54029C28D09001ADC49 /* YumzUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 644CC55129C28D09001ADC49 /* Build configuration list for PBXNativeTarget "YumzUITests" */;
+			buildPhases = (
+				644CC53D29C28D09001ADC49 /* Sources */,
+				644CC53E29C28D09001ADC49 /* Frameworks */,
+				644CC53F29C28D09001ADC49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				644CC54329C28D09001ADC49 /* PBXTargetDependency */,
+			);
+			name = YumzUITests;
+			productName = YumzUITests;
+			productReference = 644CC54129C28D09001ADC49 /* YumzUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		644CC51F29C28D08001ADC49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					644CC52629C28D08001ADC49 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					644CC53629C28D09001ADC49 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 644CC52629C28D08001ADC49;
+					};
+					644CC54029C28D09001ADC49 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 644CC52629C28D08001ADC49;
+					};
+				};
+			};
+			buildConfigurationList = 644CC52229C28D08001ADC49 /* Build configuration list for PBXProject "Yumz" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 644CC51E29C28D08001ADC49;
+			productRefGroup = 644CC52829C28D08001ADC49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				644CC52629C28D08001ADC49 /* Yumz */,
+				644CC53629C28D09001ADC49 /* YumzTests */,
+				644CC54029C28D09001ADC49 /* YumzUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		644CC52529C28D08001ADC49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644CC53229C28D09001ADC49 /* Preview Assets.xcassets in Resources */,
+				644CC52F29C28D09001ADC49 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644CC53529C28D09001ADC49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644CC53F29C28D09001ADC49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		644CC52329C28D08001ADC49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644CC52D29C28D08001ADC49 /* ContentView.swift in Sources */,
+				644CC52B29C28D08001ADC49 /* YumzApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644CC53329C28D09001ADC49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644CC53C29C28D09001ADC49 /* YumzTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644CC53D29C28D09001ADC49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644CC54629C28D09001ADC49 /* YumzUITests.swift in Sources */,
+				644CC54829C28D09001ADC49 /* YumzUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		644CC53929C28D09001ADC49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 644CC52629C28D08001ADC49 /* Yumz */;
+			targetProxy = 644CC53829C28D09001ADC49 /* PBXContainerItemProxy */;
+		};
+		644CC54329C28D09001ADC49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 644CC52629C28D08001ADC49 /* Yumz */;
+			targetProxy = 644CC54229C28D09001ADC49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		644CC54929C28D09001ADC49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		644CC54A29C28D09001ADC49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		644CC54C29C28D09001ADC49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Yumz/Preview Content\"";
+				DEVELOPMENT_TEAM = FHN8RU94TU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swiftui.elements.com.Yumz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		644CC54D29C28D09001ADC49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Yumz/Preview Content\"";
+				DEVELOPMENT_TEAM = FHN8RU94TU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swiftui.elements.com.Yumz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		644CC54F29C28D09001ADC49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FHN8RU94TU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swiftui.elements.com.YumzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yumz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Yumz";
+			};
+			name = Debug;
+		};
+		644CC55029C28D09001ADC49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FHN8RU94TU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swiftui.elements.com.YumzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yumz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Yumz";
+			};
+			name = Release;
+		};
+		644CC55229C28D09001ADC49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FHN8RU94TU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swiftui.elements.com.YumzUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Yumz;
+			};
+			name = Debug;
+		};
+		644CC55329C28D09001ADC49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FHN8RU94TU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swiftui.elements.com.YumzUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Yumz;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		644CC52229C28D08001ADC49 /* Build configuration list for PBXProject "Yumz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644CC54929C28D09001ADC49 /* Debug */,
+				644CC54A29C28D09001ADC49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		644CC54B29C28D09001ADC49 /* Build configuration list for PBXNativeTarget "Yumz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644CC54C29C28D09001ADC49 /* Debug */,
+				644CC54D29C28D09001ADC49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		644CC54E29C28D09001ADC49 /* Build configuration list for PBXNativeTarget "YumzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644CC54F29C28D09001ADC49 /* Debug */,
+				644CC55029C28D09001ADC49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		644CC55129C28D09001ADC49 /* Build configuration list for PBXNativeTarget "YumzUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644CC55229C28D09001ADC49 /* Debug */,
+				644CC55329C28D09001ADC49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 644CC51F29C28D08001ADC49 /* Project object */;
+}
