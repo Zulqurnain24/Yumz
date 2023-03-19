@@ -2,13 +2,13 @@
 
 This application exhibits my approach towards Usecase Design pattern with SwiftUI with iOS.
 
-Diagram:
 <img width="841" alt="Screenshot 2023-03-19 at 5 44 44 PM" src="https://user-images.githubusercontent.com/6280238/226196272-ec38e770-f798-41fa-8fbc-cf7850cd1f70.png">
 
-### Usage: ###
+
+## Usage: ##
 
 
-## AppState ##
+### AppState ###
 This is the place where you keep all the state info pertaining to the app
 
 ```
@@ -42,7 +42,7 @@ yumz.appState = .detail(meal.wrappedValue)
 .
 ```
 
-## MainView ##
+### MainView ###
 This is an initiation point for the view hierarchy
 
 ```
@@ -62,7 +62,7 @@ struct MainView : View {
 .
 ```
 
-## YumzStateStore ##
+### YumzStateStore ###
 This is the class which posses all the state information related to app i.e. launch state and routing
 
 ```
@@ -84,7 +84,7 @@ final class YumzStateStore: ObservableObject
 
 ```
 
-## YumzDependencyContainer ##
+### YumzDependencyContainer ###
 This is the factory for initializing used dependencies i.e. long lived dependencies like usecase, datastore and networking
 
 ```
@@ -104,7 +104,7 @@ final class YumzDependencyContainer {
 
 ```
 
-## MealListView ##
+### MealListView ###
 This is the view responsible for embedding the content view for listing logic i.e. Listing logic screen. The appstate trickles down to this view
 
 ```
@@ -124,7 +124,7 @@ struct MainView : View {
 
 ```
 
-## ListContentView ##
+### ListContentView ###
 This is the content view responsible getting the data from usecase which it access from the StateStore and populate listing
 
 ```
@@ -143,7 +143,7 @@ struct MealListView : View {
 
 ```
 
-## MealsRemoteAPIFetcheable ##
+### MealsRemoteAPIFetcheable ###
 This is the protocol used for implementing the networking concretion in shape of MealsRemoteAPI which owing to particular domain in this case MealsRemoteAPI which is "https://www.themealdb.com/api/json/v1/1/search.php?s=chicken"
 
 ```
@@ -168,7 +168,7 @@ final class YumzDependencyContainer {
 
 ```
 
-## MealsStorable ##
+### MealsStorable ###
 This is the protocol used for implementing the persistence store concretion in shape of MealsStore you can use UserDefault, Realm, or CoreData as per your requirement for the implementation of it
 
 ```
@@ -198,7 +198,7 @@ class MealsStore: MealsStorable {
 
 ```
 
-## FakeMealsStore ##
+### FakeMealsStore ###
 Is a concretion of MealsStorable protocol which you can use to stub data which can be used for testing the views in isolation from Mealstore
 
 ```
