@@ -7,13 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		644CC52B29C28D08001ADC49 /* YumzApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644CC52A29C28D08001ADC49 /* YumzApp.swift */; };
-		644CC52D29C28D08001ADC49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644CC52C29C28D08001ADC49 /* ContentView.swift */; };
 		644CC52F29C28D09001ADC49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 644CC52E29C28D09001ADC49 /* Assets.xcassets */; };
 		644CC53229C28D09001ADC49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 644CC53129C28D09001ADC49 /* Preview Assets.xcassets */; };
 		644CC53C29C28D09001ADC49 /* YumzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644CC53B29C28D09001ADC49 /* YumzTests.swift */; };
 		644CC54629C28D09001ADC49 /* YumzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644CC54529C28D09001ADC49 /* YumzUITests.swift */; };
 		644CC54829C28D09001ADC49 /* YumzUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644CC54729C28D09001ADC49 /* YumzUITestsLaunchTests.swift */; };
+		644CC55C29C28E71001ADC49 /* Yumz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644CC55B29C28E71001ADC49 /* Yumz.swift */; };
+		644CC55E29C28E9E001ADC49 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644CC55D29C28E9E001ADC49 /* MainView.swift */; };
+		644CC56029C28ED7001ADC49 /* YumzStateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644CC55F29C28ED7001ADC49 /* YumzStateStore.swift */; };
+		644CC56229C28F58001ADC49 /* YumzDependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644CC56129C28F58001ADC49 /* YumzDependencyContainer.swift */; };
+		644CC56529C28FC9001ADC49 /* MealsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644CC56429C28FC9001ADC49 /* MealsUseCase.swift */; };
+		644CC56829C290C7001ADC49 /* MealsRemoteAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644CC56729C290C7001ADC49 /* MealsRemoteAPI.swift */; };
+		644CC56D29C29198001ADC49 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644CC56C29C29198001ADC49 /* ErrorMessage.swift */; };
+		644CC57029C295DE001ADC49 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644CC56F29C295DE001ADC49 /* Meal.swift */; };
+		644CC57829C29932001ADC49 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644CC57729C29932001ADC49 /* AppConstants.swift */; };
+		644CC57A29C29A8B001ADC49 /* MealsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644CC57929C29A8B001ADC49 /* MealsResponse.swift */; };
+		64C2FB0129C5397200D33F3D /* FakeMealsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C2FB0029C5397200D33F3D /* FakeMealsAPI.swift */; };
+		64C2FB0329C541C900D33F3D /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C2FB0229C541C900D33F3D /* NetworkError.swift */; };
+		64C2FB0629C5444E00D33F3D /* LaunchingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C2FB0529C5444E00D33F3D /* LaunchingView.swift */; };
+		64C2FB0929C5447500D33F3D /* FullscreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C2FB0829C5447500D33F3D /* FullscreenView.swift */; };
+		64C2FB0C29C544B300D33F3D /* MealListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C2FB0B29C544B300D33F3D /* MealListView.swift */; };
+		64C2FBBF29C66F1100D33F3D /* OfflineStoreUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C2FBBE29C66F1100D33F3D /* OfflineStoreUserDefaults.swift */; };
+		64C2FBC229C6811700D33F3D /* meals.json in Resources */ = {isa = PBXBuildFile; fileRef = 64C2FBC129C6809A00D33F3D /* meals.json */; };
+		64C2FBC429C69C8E00D33F3D /* ListContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C2FBC329C69C8E00D33F3D /* ListContentView.swift */; };
+		64C2FBC629C69CED00D33F3D /* MealDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C2FBC529C69CED00D33F3D /* MealDetailView.swift */; };
+		64C2FBC829C69E5F00D33F3D /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C2FBC729C69E5F00D33F3D /* RemoteImage.swift */; };
+		64C2FBCA29C6A1DB00D33F3D /* DetailContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C2FBC929C6A1DB00D33F3D /* DetailContentView.swift */; };
+		64C2FBCC29C6A3A500D33F3D /* MealRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C2FBCB29C6A3A500D33F3D /* MealRow.swift */; };
+		64C2FBD729C6BB7F00D33F3D /* FakeMealsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C2FBD529C6BB7E00D33F3D /* FakeMealsStore.swift */; };
+		64C2FBD829C6BB7F00D33F3D /* MealsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C2FBD629C6BB7F00D33F3D /* MealsStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +57,6 @@
 
 /* Begin PBXFileReference section */
 		644CC52729C28D08001ADC49 /* Yumz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yumz.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		644CC52A29C28D08001ADC49 /* YumzApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YumzApp.swift; sourceTree = "<group>"; };
-		644CC52C29C28D08001ADC49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		644CC52E29C28D09001ADC49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		644CC53129C28D09001ADC49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		644CC53729C28D09001ADC49 /* YumzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YumzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +64,30 @@
 		644CC54129C28D09001ADC49 /* YumzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YumzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		644CC54529C28D09001ADC49 /* YumzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YumzUITests.swift; sourceTree = "<group>"; };
 		644CC54729C28D09001ADC49 /* YumzUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YumzUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		644CC55B29C28E71001ADC49 /* Yumz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yumz.swift; sourceTree = "<group>"; };
+		644CC55D29C28E9E001ADC49 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		644CC55F29C28ED7001ADC49 /* YumzStateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YumzStateStore.swift; sourceTree = "<group>"; };
+		644CC56129C28F58001ADC49 /* YumzDependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YumzDependencyContainer.swift; sourceTree = "<group>"; };
+		644CC56429C28FC9001ADC49 /* MealsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsUseCase.swift; sourceTree = "<group>"; };
+		644CC56729C290C7001ADC49 /* MealsRemoteAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsRemoteAPI.swift; sourceTree = "<group>"; };
+		644CC56C29C29198001ADC49 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
+		644CC56F29C295DE001ADC49 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		644CC57729C29932001ADC49 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		644CC57929C29A8B001ADC49 /* MealsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsResponse.swift; sourceTree = "<group>"; };
+		64C2FB0029C5397200D33F3D /* FakeMealsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeMealsAPI.swift; sourceTree = "<group>"; };
+		64C2FB0229C541C900D33F3D /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		64C2FB0529C5444E00D33F3D /* LaunchingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchingView.swift; sourceTree = "<group>"; };
+		64C2FB0829C5447500D33F3D /* FullscreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullscreenView.swift; sourceTree = "<group>"; };
+		64C2FB0B29C544B300D33F3D /* MealListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealListView.swift; sourceTree = "<group>"; };
+		64C2FBBE29C66F1100D33F3D /* OfflineStoreUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineStoreUserDefaults.swift; sourceTree = "<group>"; };
+		64C2FBC129C6809A00D33F3D /* meals.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = meals.json; sourceTree = "<group>"; };
+		64C2FBC329C69C8E00D33F3D /* ListContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListContentView.swift; sourceTree = "<group>"; };
+		64C2FBC529C69CED00D33F3D /* MealDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailView.swift; sourceTree = "<group>"; };
+		64C2FBC729C69E5F00D33F3D /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		64C2FBC929C6A1DB00D33F3D /* DetailContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailContentView.swift; sourceTree = "<group>"; };
+		64C2FBCB29C6A3A500D33F3D /* MealRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealRow.swift; sourceTree = "<group>"; };
+		64C2FBD529C6BB7E00D33F3D /* FakeMealsStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeMealsStore.swift; sourceTree = "<group>"; };
+		64C2FBD629C6BB7F00D33F3D /* MealsStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealsStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +138,16 @@
 		644CC52929C28D08001ADC49 /* Yumz */ = {
 			isa = PBXGroup;
 			children = (
-				644CC52A29C28D08001ADC49 /* YumzApp.swift */,
-				644CC52C29C28D08001ADC49 /* ContentView.swift */,
+				64C2FBC029C6807D00D33F3D /* JsonFile */,
+				64C2FB0A29C544A700D33F3D /* Views */,
+				64C2FB0729C5446600D33F3D /* ReusableViews */,
+				64C2FB0429C5443F00D33F3D /* Launching */,
+				644CC57629C29921001ADC49 /* Constants */,
+				644CC56E29C295D4001ADC49 /* Entities */,
+				644CC56B29C29186001ADC49 /* ReusableModels */,
+				644CC56629C290B0001ADC49 /* Subsystems */,
+				644CC56329C28FB0001ADC49 /* UseCases */,
+				644CC55829C28E34001ADC49 /* App */,
 				644CC52E29C28D09001ADC49 /* Assets.xcassets */,
 				644CC53029C28D09001ADC49 /* Preview Content */,
 			);
@@ -127,6 +179,100 @@
 			path = YumzUITests;
 			sourceTree = "<group>";
 		};
+		644CC55829C28E34001ADC49 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				644CC55B29C28E71001ADC49 /* Yumz.swift */,
+				644CC55D29C28E9E001ADC49 /* MainView.swift */,
+				644CC55F29C28ED7001ADC49 /* YumzStateStore.swift */,
+				644CC56129C28F58001ADC49 /* YumzDependencyContainer.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		644CC56329C28FB0001ADC49 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				644CC56429C28FC9001ADC49 /* MealsUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		644CC56629C290B0001ADC49 /* Subsystems */ = {
+			isa = PBXGroup;
+			children = (
+				64C2FBD529C6BB7E00D33F3D /* FakeMealsStore.swift */,
+				64C2FBD629C6BB7F00D33F3D /* MealsStore.swift */,
+				644CC56729C290C7001ADC49 /* MealsRemoteAPI.swift */,
+				64C2FB0029C5397200D33F3D /* FakeMealsAPI.swift */,
+				64C2FBBE29C66F1100D33F3D /* OfflineStoreUserDefaults.swift */,
+				64C2FBC729C69E5F00D33F3D /* RemoteImage.swift */,
+			);
+			path = Subsystems;
+			sourceTree = "<group>";
+		};
+		644CC56B29C29186001ADC49 /* ReusableModels */ = {
+			isa = PBXGroup;
+			children = (
+				644CC56C29C29198001ADC49 /* ErrorMessage.swift */,
+			);
+			path = ReusableModels;
+			sourceTree = "<group>";
+		};
+		644CC56E29C295D4001ADC49 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				644CC56F29C295DE001ADC49 /* Meal.swift */,
+				644CC57929C29A8B001ADC49 /* MealsResponse.swift */,
+				64C2FB0229C541C900D33F3D /* NetworkError.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		644CC57629C29921001ADC49 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				644CC57729C29932001ADC49 /* AppConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		64C2FB0429C5443F00D33F3D /* Launching */ = {
+			isa = PBXGroup;
+			children = (
+				64C2FB0529C5444E00D33F3D /* LaunchingView.swift */,
+			);
+			path = Launching;
+			sourceTree = "<group>";
+		};
+		64C2FB0729C5446600D33F3D /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				64C2FB0829C5447500D33F3D /* FullscreenView.swift */,
+			);
+			path = ReusableViews;
+			sourceTree = "<group>";
+		};
+		64C2FB0A29C544A700D33F3D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				64C2FBC329C69C8E00D33F3D /* ListContentView.swift */,
+				64C2FB0B29C544B300D33F3D /* MealListView.swift */,
+				64C2FBC529C69CED00D33F3D /* MealDetailView.swift */,
+				64C2FBC929C6A1DB00D33F3D /* DetailContentView.swift */,
+				64C2FBCB29C6A3A500D33F3D /* MealRow.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		64C2FBC029C6807D00D33F3D /* JsonFile */ = {
+			isa = PBXGroup;
+			children = (
+				64C2FBC129C6809A00D33F3D /* meals.json */,
+			);
+			path = JsonFile;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +289,8 @@
 			dependencies = (
 			);
 			name = Yumz;
+			packageProductDependencies = (
+			);
 			productName = Yumz;
 			productReference = 644CC52729C28D08001ADC49 /* Yumz.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +363,8 @@
 				Base,
 			);
 			mainGroup = 644CC51E29C28D08001ADC49;
+			packageReferences = (
+			);
 			productRefGroup = 644CC52829C28D08001ADC49 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +382,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				644CC53229C28D09001ADC49 /* Preview Assets.xcassets in Resources */,
+				64C2FBC229C6811700D33F3D /* meals.json in Resources */,
 				644CC52F29C28D09001ADC49 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +408,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				644CC52D29C28D08001ADC49 /* ContentView.swift in Sources */,
-				644CC52B29C28D08001ADC49 /* YumzApp.swift in Sources */,
+				64C2FB0329C541C900D33F3D /* NetworkError.swift in Sources */,
+				644CC56529C28FC9001ADC49 /* MealsUseCase.swift in Sources */,
+				64C2FBBF29C66F1100D33F3D /* OfflineStoreUserDefaults.swift in Sources */,
+				64C2FBC829C69E5F00D33F3D /* RemoteImage.swift in Sources */,
+				644CC56D29C29198001ADC49 /* ErrorMessage.swift in Sources */,
+				644CC55E29C28E9E001ADC49 /* MainView.swift in Sources */,
+				64C2FB0C29C544B300D33F3D /* MealListView.swift in Sources */,
+				64C2FBCC29C6A3A500D33F3D /* MealRow.swift in Sources */,
+				644CC56829C290C7001ADC49 /* MealsRemoteAPI.swift in Sources */,
+				644CC57A29C29A8B001ADC49 /* MealsResponse.swift in Sources */,
+				64C2FBD829C6BB7F00D33F3D /* MealsStore.swift in Sources */,
+				64C2FBC429C69C8E00D33F3D /* ListContentView.swift in Sources */,
+				644CC55C29C28E71001ADC49 /* Yumz.swift in Sources */,
+				64C2FB0629C5444E00D33F3D /* LaunchingView.swift in Sources */,
+				644CC56029C28ED7001ADC49 /* YumzStateStore.swift in Sources */,
+				644CC56229C28F58001ADC49 /* YumzDependencyContainer.swift in Sources */,
+				644CC57829C29932001ADC49 /* AppConstants.swift in Sources */,
+				64C2FB0129C5397200D33F3D /* FakeMealsAPI.swift in Sources */,
+				64C2FB0929C5447500D33F3D /* FullscreenView.swift in Sources */,
+				64C2FBCA29C6A1DB00D33F3D /* DetailContentView.swift in Sources */,
+				64C2FBC629C69CED00D33F3D /* MealDetailView.swift in Sources */,
+				644CC57029C295DE001ADC49 /* Meal.swift in Sources */,
+				64C2FBD729C6BB7F00D33F3D /* FakeMealsStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,7 +589,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Yumz/Preview Content\"";
-				DEVELOPMENT_TEAM = FHN8RU94TU;
+				DEVELOPMENT_TEAM = NDH97745WS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -430,7 +602,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = swiftui.elements.com.Yumz;
+				PRODUCT_BUNDLE_IDENTIFIER = swiftui.elements.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -446,7 +618,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Yumz/Preview Content\"";
-				DEVELOPMENT_TEAM = FHN8RU94TU;
+				DEVELOPMENT_TEAM = NDH97745WS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -459,7 +631,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = swiftui.elements.com.Yumz;
+				PRODUCT_BUNDLE_IDENTIFIER = swiftui.elements.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
