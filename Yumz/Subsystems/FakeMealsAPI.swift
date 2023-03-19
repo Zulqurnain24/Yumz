@@ -8,7 +8,7 @@
 import Combine
 import SwiftUI
 
-// MARK: - FakeMealsAPI
+// MARK: - Fake MealsAPI implementation
 
 class FakeMealsAPI: MealsRemoteAPIFetcheable {
   @Published var meals: [Meal] = []

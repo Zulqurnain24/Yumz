@@ -8,6 +8,8 @@
 import Combine
 import Foundation
 
+// MARK: - Fake mealstore implementation
+
 class FakeMealsStore: MealsStorable {
   func getMealsData() -> Data {
     return Data()

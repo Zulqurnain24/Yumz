@@ -7,9 +7,9 @@
 
 import Foundation
 
-// MARK: - MainView is the place where we house the routing of our app
+// MARK: - FetchMealsDependencyContainer is the place where we house the factory related logic pertaining to specific usecase
 
-final class YumzDependencyContainer {
+final class MealsFetchDependencyContainer {
   // MARK: Subsystems
   
   let mealsStore: MealsStorable = MealsStore()

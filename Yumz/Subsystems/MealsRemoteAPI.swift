@@ -9,7 +9,7 @@ import Combine
 import Foundation
 import SwiftUI
 
-// MARK: - API
+// MARK: - Meals remote Api
 
 protocol MealsRemoteAPIFetcheable {
   func getMeals() -> AnyPublisher<[Meal], CustomError>
