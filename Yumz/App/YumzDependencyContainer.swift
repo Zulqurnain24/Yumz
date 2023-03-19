@@ -23,6 +23,6 @@ final class YumzDependencyContainer {
   }
   
   func makeMealsRemoteAPI() -> MealsRemoteAPIFetcheable {
-    return FakeMealsAPI()
+    return MealsRemoteAPI()
   }
 }

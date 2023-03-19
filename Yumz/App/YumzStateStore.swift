@@ -12,8 +12,7 @@ import Combine
 // MARK: - MainView is the place where we house the routing of our app
 
 final class YumzStateStore: ObservableObject {
-    
-  // MARK: AppState
+
   @Published var appState = AppState.launching(.starting)
   var anyCancellable: AnyCancellable
   
