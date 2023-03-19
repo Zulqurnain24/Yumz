@@ -2,7 +2,8 @@
 
 This application exhibits my approach towards Usecase Design pattern with SwiftUI with iOS.
 
-<img width="841" alt="Screenshot 2023-03-19 at 5 44 44 PM" src="https://user-images.githubusercontent.com/6280238/226196272-ec38e770-f798-41fa-8fbc-cf7850cd1f70.png">
+## Usecase Architecture ##
+<img width="743" alt="Screenshot 2023-03-19 at 7 46 33 PM" src="https://user-images.githubusercontent.com/6280238/226205109-c029e6c9-0d5d-4ea2-9c48-38635cff8885.png">
 
 
 ## Usage: ##
