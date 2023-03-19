@@ -1,6 +1,6 @@
 # Yumz #
 
-This application exhibits my approach towards Usecase pattern with SwiftUI with iOS.
+This application exhibits my approach towards Usecase Design pattern with SwiftUI with iOS.
 
 Diagram:
 <img width="841" alt="Screenshot 2023-03-19 at 5 44 44 PM" src="https://user-images.githubusercontent.com/6280238/226196272-ec38e770-f798-41fa-8fbc-cf7850cd1f70.png">
