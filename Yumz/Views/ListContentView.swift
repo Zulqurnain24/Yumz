@@ -12,7 +12,7 @@ import SwiftUI
 // MARK: - View for MealListView Screen
 
 struct ListContentView : View {
-  @ObservedObject var yumz: MealsStateStore
+  @ObservedObject var yumz: YumzStateStore
   @State var meals: [Meal] = []
   @State private var isRefreshing = false
   
@@ -53,7 +53,7 @@ struct ListContentView : View {
 #if DEBUG
 struct ListContentView_Previews : PreviewProvider {
   static var previews: some View {
-    ListContentView(yumz: MealsStateStore())
+    ListContentView(yumz: YumzStateStore())
   }
 }
 #endif

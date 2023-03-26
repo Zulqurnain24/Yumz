@@ -10,7 +10,7 @@ import SwiftUI
 // MARK: - Launch Screen
 
 struct LaunchingView : View {
-  @ObservedObject var yumz: MealsStateStore
+  @ObservedObject var yumz: YumzStateStore
   
   var body: some View {
     NavigationView {
@@ -41,7 +41,7 @@ struct LaunchingView : View {
 #if DEBUG
 struct LaunchingView_Previews : PreviewProvider {
   static var previews: some View {
-    LaunchingView(yumz: MealsStateStore())
+    LaunchingView(yumz: YumzStateStore())
   }
 }
 #endif

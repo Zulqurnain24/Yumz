@@ -11,7 +11,7 @@ import SwiftUI
 
 struct DetailContentView: View {
   @Binding var meal: Meal
-  @ObservedObject var yumz: MealsStateStore
+  @ObservedObject var yumz: YumzStateStore
   
   var body: some View {
     ScrollView {

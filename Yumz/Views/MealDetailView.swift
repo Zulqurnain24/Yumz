@@ -11,7 +11,7 @@ import SwiftUI
 
 struct MealDetailView: View {
   @State var meal: Meal = Meal(id: "", name: "", category: "", instructions: "", thumbnail: "", youtube: "")
-  @ObservedObject var yumz: MealsStateStore
+  @ObservedObject var yumz: YumzStateStore
   
   var body: some View {
     VStack(content: content)
@@ -31,7 +31,7 @@ extension MealDetailView: Equatable {
 #if DEBUG
 struct MealDetailView_Previews : PreviewProvider {
   static var previews: some View {
-    MealDetailView(meal: Meal.mocked(), yumz: MealsStateStore())
+    MealDetailView(meal: Meal.mocked(), yumz: YumzStateStore())
   }
 }
 #endif

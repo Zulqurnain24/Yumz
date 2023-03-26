@@ -11,10 +11,10 @@ import SwiftUI
 
 @main
 struct Yumz: App {
-    let mealsStore = MealsStateStore()
-    var body: some Scene {
-        WindowGroup {
-            MealsMainView(mealsStore: mealsStore)
-        }
+  let yumz = YumzStateStore()
+  var body: some Scene {
+    WindowGroup {
+      MainView(yumz: yumz)
     }
+  }
 }

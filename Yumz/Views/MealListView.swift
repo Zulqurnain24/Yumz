@@ -10,7 +10,7 @@ import SwiftUI
 // MARK: - Screen for displaying the meal listing
 
 struct MealListView : View {
-  @ObservedObject var yumz: MealsStateStore
+  @ObservedObject var yumz: YumzStateStore
   
   var body: some View {
     VStack(content: content)
@@ -30,7 +30,7 @@ extension MealListView: Equatable {
 #if DEBUG
 struct MealListView_Previews : PreviewProvider {
   static var previews: some View {
-    MealListView(yumz: MealsStateStore())
+    MealListView(yumz: YumzStateStore())
   }
 }
 #endif

@@ -7,7 +7,7 @@
 
 import Foundation
 
-// MARK: - ErrorMessage Handling
+// MARK: - ErrorMessage struct
 
 struct ErrorMessage: Error {
   let id = UUID()
